@@ -15,13 +15,13 @@
                 default_layer {
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 // | EQUAL|  N1  |  N2  |  N3  |  N4   |  N5   |       |       |     |       |       |   N6  |   N7   |   N8    |   N9   |   N0   |  MINUS |
-// | TAB  |  Q   |  W   |  E   |  R    |  T    |       |       |     |       |       |   Y   |   U    |   I     |   O    |   P    |  BLSH  |
+// | TAB  |  Q   |  W   |  E   |  R    |  T    |       |       |     |       |       |   Y   |   U    |   I     |   O    |   P    |  BSLH  |
 // | CAPS |  A   |  S   |  D   |  F    |  G    | LGUI  | ESC   |     | RCTRL | RALT  |   H   |   J    |   K     |   L    |  SEMI  |  SQT   |
 // | LSHFT|  Z   |  X   |  C   |  V    |  B    |       | HOME  |     | PG_UP |       |   N   |   M    |  COMMA  |  DOT   |  FSLH  | RSHFT  |
 //        | GRAVE| mo1  | LEFT | RIGHT | BSPC  | DEL   | END   |     | PG_DN | ENTER | SPACE |   UP   |  DOWN   |  LBKT  |  RBKT  |
                   bindings = <
                     &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4    &kp N5                                           &kp N6    &kp N7 &kp N8    &kp N9   &kp N0    &kp MINUS 
-                    &kp TAB   &kp Q     &kp W    &kp E    &kp R     &kp T                                            &kp Y     &kp U  &kp I     &kp O    &kp P     &kp BLSH 
+                    &kp TAB   &kp Q     &kp W    &kp E    &kp R     &kp T                                            &kp Y     &kp U  &kp I     &kp O    &kp P     &kp BSLH 
                     &kp CAPS  &kp A     &kp S    &kp D    &kp F     &kp G    &kp LGUI &kp ESC    &kp RCTRL &kp RALT  &kp H     &kp J  &kp K     &kp L    &kp SEMI  &kp SQT
                     &kp LSHFT &kp Z     &kp X    &kp C    &kp V     &kp B             &kp HOME   &kp PG_UP           &kp N     &kp M  &kp COMMA &kp DOT  &kp FSLH  &kp RSHFT
                               &kp GRAVE &mo 1    &kp LEFT &kp RIGHT &kp BSPC &kp DEL  &kp END    &kp PG_DN &kp ENTER &kp SPACE &kp UP &kp DOWN  &kp LBKT &kp RBKT
