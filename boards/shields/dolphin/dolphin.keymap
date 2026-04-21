@@ -30,13 +30,13 @@
                 lower_layer {
 // ------------------------------------------------------------------------------------------------------------------------------------------------
 // | EQUAL|  N1  |  N2  |  N3  |  N4   |  N5   |       |       |     |       |       |   N6  |   N7   | KP_EQUAL | KP_DIVIDE |  KP_MULTIPLY  |  MINUS |
-// | BTCLR|  BT1 |  BT2 |  BT3 |  BT4  |  BT5  |       |       |     |       |       |   Y   |   7    |   8      |   9       |  KP_MINUS     |  BLSH  |
+// | BTCLR|  BT1 |  BT2 |  BT3 |  BT4  |  BT5  |       |       |     |       |       |   Y   |   7    |   8      |   9       |  KP_MINUS     |  BSLH  |
 // | CAPS |  A   |  S   |  D   |  F    |  G    | LGUI  | ESC   |     | RCTRL | RALT  |   H   |   4    |   5      |   6       |  KP_PLUS      |  SQT   |
 // | LSHFT|  Z   |  X   |  C   |  V    |  B    |       | HOME  |     | PG_UP |       |   N   |   1    |   2      |   3       |  ENTER        | RSHFT  |
 //        | GRAVE| mo1  | LEFT | RIGHT | BSPC  | DEL   | END   |     | PG_DN | ENTER | SPACE |  UP    |  DOWN    |  KP_DOT   |  KP_N0        |
                         bindings = <
                     &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4    &kp N5                                           &kp N6    &kp N7 &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY &kp MINUS 
-                    &kp TAB   &kp Q     &kp W    &kp E    &kp R     &kp T                                            &kp Y     &kp 7  &kp 8        &kp 9         &kp KP_MINUS    &kp BLSH 
+                    &kp TAB   &kp Q     &kp W    &kp E    &kp R     &kp T                                            &kp Y     &kp 7  &kp 8        &kp 9         &kp KP_MINUS    &kp BSLH 
                     &kp CAPS  &kp A     &kp S    &kp D    &kp F     &kp G    &kp LGUI &kp ESC    &kp RCTRL &kp RALT  &kp H     &kp 4  &kp 5        &kp 6         &kp KP_PLUS     &kp SQT
                     &kp LSHFT &kp Z     &kp X    &kp C    &kp V     &kp B             &kp HOME   &kp PG_UP           &kp N     &kp 1  &kp 2        &kp 3         &kp ENTER       &kp RSHFT
                               &kp GRAVE &mo 1    &kp LEFT &kp RIGHT &kp BSPC &kp DEL  &kp END    &kp PG_DN &kp ENTER &kp SPACE &kp UP &kp DOWN     &kp KP_DOT    &kp KP_N0
