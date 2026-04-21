@@ -1,6 +1,5 @@
 / {
     key_physical_attrs: key_physical_attrs {
-        //compatible = "zmk,physical-layout-key";
         #key-cells = <7>;
     };
     foostan_dolphin_8col_layout: foostan_dolphin_8col_layout {
