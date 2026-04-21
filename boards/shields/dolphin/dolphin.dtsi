@@ -6,20 +6,20 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include <layouts/foostan/corne/5column.dtsi>
-#include <layouts/foostan/corne/6column.dtsi>
-
+//#include <layouts/foostan/corne/5column.dtsi>
+//#include <layouts/foostan/corne/6column.dtsi>
+#include "dorphin_8column.dtsi"
 &foostan_dolphin_8col_layout {
     transform = <&default_transform>;
 };
 
-&foostan_corne_6col_layout {
-    transform = <&default_transform>;
-};
+//&foostan_corne_6col_layout {
+//   transform = <&default_transform>;
+//};
 
-&foostan_corne_5col_layout {
-    transform = <&five_column_transform>;
-};
+//&foostan_corne_5col_layout {
+//    transform = <&five_column_transform>;
+//};
 
 / {
     chosen {
