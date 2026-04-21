@@ -40,7 +40,7 @@
             , <&key_physical_attrs 100 100  525  200       0     0     0> // G RC(2,5)
             , <&key_physical_attrs 100 100  675  400    1500   525   400> // LGUI RC(2,6)
             , <&key_physical_attrs 100 100  775  400    1500   525   400> // ESC RC(2,7)
-            , <&key_physical_attrs 100 100  925  400   -1500  1275   400> // RCTRL RC(2,8)
+            , <&key_physical_attrs 100 100  925  400  (-1500)  1275   400> // RCTRL RC(2,8)
             , <&key_physical_attrs 100 100 1025  400   -1500  1275   400> // RALT RC(2,9)
             , <&key_physical_attrs 100 100 1175  200       0     0     0> // H RC(2,10)
             , <&key_physical_attrs 100 100 1275  200       0     0     0> // J RC(2,11)
