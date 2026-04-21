@@ -6,9 +6,10 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include <layouts/foostan/corne/5column.dtsi>
-#include <layouts/foostan/corne/6column.dtsi>
-#include <dolphin_8column.dtsi>
+//#include <layouts/foostan/corne/5column.dtsi>
+//#include <layouts/foostan/corne/6column.dtsi>
+#include "dolphin_8column.dtsi"
+
 &foostan_dolphin_8col_layout {
     transform = <&default_transform>;
 };
