@@ -20,7 +20,7 @@
     ;
 	col-gpios
 		= <&pro_micro 10 GPIO_ACTIVE_HIGH>  // Most right/Outter Column 0
-		= <&pro_micro 19 GPIO_ACTIVE_HIGH>  // Column 1
+		, <&pro_micro 19 GPIO_ACTIVE_HIGH>  // Column 1
 		, <&pro_micro 0 GPIO_ACTIVE_HIGH>   // Column 2
 		, <&pro_micro 2 GPIO_ACTIVE_HIGH>   // Column 3
 		, <&pro_micro 3 GPIO_ACTIVE_HIGH>   // Column 4
