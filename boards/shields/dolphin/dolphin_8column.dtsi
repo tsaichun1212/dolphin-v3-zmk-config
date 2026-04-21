@@ -1,5 +1,6 @@
 / {
     key_physical_attrs: key_physical_attrs {
+        compatible = "zmk,physical-layout-key";
         #key-cells = <7>;
     };
     foostan_dolphin_8col_layout: foostan_dolphin_8col_layout {
@@ -38,8 +39,8 @@
             , <&key_physical_attrs 100 100  525  200       0     0     0> //G RC(2,5)
             , <&key_physical_attrs 100 100  675  400    1500   525   400> //LGUI RC(2,6)
             , <&key_physical_attrs 100 100  775  400    1500   525   400> //ESC RC(2,7)
-            , <&key_physical_attrs 100 100  925  400 (-1500)  1275   400> //RCTRL RC(2,8)
-            , <&key_physical_attrs 100 100 1025  400 (-1500)  1275   400> //RALT RC(2,9)
+            , <&key_physical_attrs 100 100  925  400   -1500  1275   400> //RCTRL RC(2,8)
+            , <&key_physical_attrs 100 100 1025  400   -1500  1275   400> //RALT RC(2,9)
             , <&key_physical_attrs 100 100 1175  200       0     0     0> //H RC(2,10)
             , <&key_physical_attrs 100 100 1275  200       0     0     0> //J RC(2,11)
             , <&key_physical_attrs 100 100 1375  200       0     0     0> //K RC(2,12)
@@ -53,7 +54,7 @@
             , <&key_physical_attrs 100 100  425  300       0     0     0> //V RC(3,4)
             , <&key_physical_attrs 100 100  525  300       0     0     0> //B RC(3,5)
             , <&key_physical_attrs 100 100  775  500    1500   525   400> //HOME RC(3,7)
-            , <&key_physical_attrs 100 100  925  500 (-1500)  1275   400> //PG_UP RC(3,8)
+            , <&key_physical_attrs 100 100  925  500   -1500  1275   400> //PG_UP RC(3,8)
             , <&key_physical_attrs 100 100 1175  300       0     0     0> //N RC(3,10)
             , <&key_physical_attrs 100 100 1275  300       0     0     0> //M RC(3,11)
             , <&key_physical_attrs 100 100 1375  300       0     0     0> //COMMA RC(3,12)
@@ -67,9 +68,9 @@
             , <&key_physical_attrs 100 200  575  500    1500   525   400> //BSPC RC(4,5)
             , <&key_physical_attrs 100 200  675  500    1500   525   400> //DEL RC(4,6)
             , <&key_physical_attrs 100 100  775  600    1500   525   400> //END RC(4,7)
-            , <&key_physical_attrs 100 100  925  600 (-1500)  1275   400> //PG_DN RC(4,8)
-            , <&key_physical_attrs 100 200 1025  500 (-1500)  1275   400> //ENTER RC(4,9)
-            , <&key_physical_attrs 100 200 1125  500 (-1500)  1275   400> //SPACE RC(4,10)
+            , <&key_physical_attrs 100 100  925  600   -1500  1275   400> //PG_DN RC(4,8)
+            , <&key_physical_attrs 100 200 1025  500   -1500  1275   400> //ENTER RC(4,9)
+            , <&key_physical_attrs 100 200 1125  500   -1500  1275   400> //SPACE RC(4,10)
             , <&key_physical_attrs 100 100 1275  400       0     0     0> //UP RC(4,11)
             , <&key_physical_attrs 100 100 1375  400       0     0     0> //DOWN RC(4,12)
             , <&key_physical_attrs 100 100 1475  400       0     0     0> //LBKT RC(4,13)
