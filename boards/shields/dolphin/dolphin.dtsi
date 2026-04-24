@@ -5,11 +5,14 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "dolphin_8column.dtsi"
 
+&foostan_dolphin_8col_layout {
+    transform = <&default_transform>;
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &default_transform;
+        zmk,physical-layout = &foostan_dolphin_8col_layout;
     };
 
     default_transform: keymap_transform_0 {

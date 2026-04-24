@@ -2,10 +2,12 @@ file_format: "1"
 id: dolphin 
 name: dolphin
 type: shield
-url: https://github.com/foostan/crkbd/
+url: https://github.com/tsaichun1212/dolphin-v3-zmk-config/
 requires: [pro_micro]
 exposes: [i2c_oled]
 features:
+  - keys
+  - studio
 siblings:
   - dolphin_left
   - dolphin_right
