@@ -26,7 +26,6 @@
 		, <&pro_micro 2 GPIO_ACTIVE_HIGH>   // Column 12
 		, <&pro_micro 0 GPIO_ACTIVE_HIGH>   // Column 13
 		, <&pro_micro 19 GPIO_ACTIVE_HIGH>   // Column 14
-		//, <&pro_micro 10 GPIO_ACTIVE_HIGH>   // Column 15(Used for original PCB pin out.  But, GPIO seems dead on my MCU.  Thus, using pin D21 as replacement GPIO pin)
-		, <&pro_micro 21 GPIO_ACTIVE_HIGH>   // Column 15
+		, <&pro_micro 10 GPIO_ACTIVE_HIGH>   // Column 15
 		;
 };
